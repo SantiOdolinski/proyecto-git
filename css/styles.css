@@ -1,0 +1,34 @@
+
+h3{
+    color:blueviolet;
+    background-color:brown;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color:darkslateblue;
+    background-color: seagreen ;
+    font-family:monospace;
+    
+}
+section div li {
+    color:chartreuse;
+    background-color: black;
+    font-family: cursive;
+
+}
+.color-marron{
+    color:maroon;
+}
+
+.fondo-gris{
+    background-color: gray;
+}
+
+section p{
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bg-blue {
+    background-color: darkblue;
+}
