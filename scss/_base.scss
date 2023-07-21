@@ -1,0 +1,56 @@
+$color-titulos:rgb(255, 166, 0) ;
+$color-titulosh2: rgb(247, 61, 61);
+$color-titulosh3: lightcoral;
+$color-fondo:rgb(85, 85, 161) ;
+$font-family-titulos:Arial, Helvetica, sans-serif ;
+
+h1 {
+    background-color: $color-titulos;
+    font-family: $font-family-titulos ;
+    font-size: 5rem;
+}
+
+
+h2 {
+    background-color:$color-titulosh2 ;
+    font-family: $font-family-titulos;
+
+}
+
+h3{
+    background-color: $color-titulosh3;
+    font-family: $font-family-titulos;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+body{
+    background-color: $color-fondo ;
+}
+nav ul{
+    display:contents;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+
+    li {
+        padding: 0.5rem;
+        
+        a{
+            color: white;
+            &:hover{
+                color: orange;
+            }
+           
+        }
+        
+    }
+}
+div ul li {
+    color: crimson;
+    font-size: 1.5rem;
+}
+img{
+    object-fit: cover;
+}
